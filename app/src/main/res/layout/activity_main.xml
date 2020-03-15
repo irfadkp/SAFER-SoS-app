@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"><![CDATA[
+
+
+
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        android:orientation="vertical"
+        android:weightSum="10"
+        tools:context=".MainActivity">
+
+
+
+
+
+
+    ]]>
+
+    <ImageButton
+        android:id="@+id/sosbutton"
+        android:layout_width="294dp"
+        android:layout_height="243dp"
+        android:background="@drawable/sosbutton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.057"
+        tools:ignore="MissingConstraints" />
+
+    <ImageButton
+        android:id="@+id/pinfo"
+        android:layout_width="139dp"
+        android:layout_height="128dp"
+        android:background="#FFFFFF"
+        android:foreground="@drawable/pinfo"
+        android:onClick="retrieve"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.172"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.525"
+        tools:ignore="OnClick" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="132dp"
+        android:layout_height="120dp"
+        android:foreground="@drawable/setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.87"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.782" />
+
+    <ImageButton
+        android:id="@+id/voice"
+        android:layout_width="134dp"
+        android:layout_height="119dp"
+        android:layout_marginTop="32dp"
+        android:background="#FFFFFF"
+        android:foreground="@drawable/voice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.169"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.769" />
+
+    <ImageButton
+        android:id="@+id/safetrack"
+        android:layout_width="135dp"
+        android:layout_height="130dp"
+        android:background="@drawable/safet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.88"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.524" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

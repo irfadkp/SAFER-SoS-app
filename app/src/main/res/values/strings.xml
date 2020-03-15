@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SAFER</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_amaps">Map</string>
+</resources>

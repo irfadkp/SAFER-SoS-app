@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".more">
+
+    <Button
+        android:id="@+id/setting6"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="     About app"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.532" />
+
+    <Button
+        android:id="@+id/setting1"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="    Set Preferred Time  "
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/setting2"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="   Add voice"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+
+    <Button
+        android:id="@+id/setting4"
+        android:layout_width="461dp"
+        android:layout_height="67dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="     Emergency Contacts"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <Button
+        android:id="@+id/setting3"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="      Continous Tracking"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.205" />
+
+    <Button
+        android:id="@+id/setting6"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="     Help"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.621" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="377dp"
+        android:layout_height="71dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="       Danger index"
+        android:textAlignment="viewStart"
+        android:textColor="#0C0B0B"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.276"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <Button
+        android:id="@+id/setting99"
+        android:layout_width="408dp"
+        android:layout_height="60dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:text="    language  "
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

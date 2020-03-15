@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SAFER.iml" filepath="$PROJECT_DIR$/SAFER.iml" group="SAFER" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="SAFER/app" />
+      <module fileurl="file://$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/pocketsphinx-android-5prealpha-release.iml" filepath="$PROJECT_DIR$/pocketsphinx-android-5prealpha-release/pocketsphinx-android-5prealpha-release.iml" group="SAFER/pocketsphinx-android-5prealpha-release" />
+    </modules>
+  </component>
+</project>

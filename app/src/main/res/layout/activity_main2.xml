@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="957dp"
+        app:layout_anchor="@+id/constraintLayout"
+        app:layout_anchorGravity="center">
+
+        <TextView
+            android:id="@+id/heading1"
+            android:layout_width="367dp"
+            android:layout_height="42dp"
+            android:text="Personal Information"
+            android:textColor="#11B5B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp"
+            tools:layout_editor_absoluteY="5dp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="408dp"
+            android:layout_height="43dp"
+            android:layout_marginTop="28dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Name"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/heading1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="408dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Address"
+            android:inputType="textPostalAddress"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/name"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/district"
+            android:layout_width="200dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:fontFamily="sans-serif"
+            android:hint="District"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/state"
+            app:layout_constraintTop_toBottomOf="@+id/email"
+            tools:ignore="MissingConstraints" />
+
+        <AutoCompleteTextView
+            android:id="@+id/state"
+            android:layout_width="200dp"
+            android:layout_height="39dp"
+            android:fontFamily="sans-serif"
+            android:hint="State"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@id/email"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <AutoCompleteTextView
+            android:id="@+id/country"
+            android:layout_width="408dp"
+            android:layout_height="39dp"
+            android:fontFamily="sans-serif"
+            android:hint="Country"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/district"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="399dp"
+            android:layout_height="61dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="4dp"
+            android:text="Personal Emergency Contacts"
+            android:textColor="#11B5B5"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/country" />
+
+        <Button
+            android:id="@+id/addcontacts"
+            android:layout_width="210dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:background="#D711B5B5"
+            android:backgroundTint="#11B5B5"
+            android:ellipsize="start"
+            android:text="Add Contacts"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emph3"
+            tools:ignore="MissingConstraints" />
+
+
+        <Button
+            android:id="@+id/save"
+            android:layout_width="107dp"
+            android:layout_height="49dp"
+            android:background="#11B5B5"
+            android:text="Save"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.644"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="408dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/phone"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <EditText
+            android:id="@+id/pincode"
+            android:layout_width="200dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="PIN"
+            android:inputType="number"
+            android:textSize="18sp"
+            app:layout_constraintTop_toBottomOf="@+id/address"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="4dp" />
+
+        <EditText
+            android:id="@+id/phone"
+            android:layout_width="200dp"
+            android:layout_height="39dp"
+            android:layout_marginStart="8dp"
+            android:ems="10"
+            android:fontFamily="sans-serif"
+            android:hint="Phone"
+            android:inputType="textPersonName"
+            android:textSize="18sp"
+            app:layout_constraintStart_toEndOf="@+id/pincode"
+            app:layout_constraintTop_toTopOf="@+id/pincode" />
+
+        <EditText
+            android:id="@+id/emph1"
+            android:layout_width="408dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:hint="phone 1"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/heading2" />
+
+        <EditText
+            android:id="@+id/emph2"
+            android:layout_width="408dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:hint="phone 2"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emph1" />
+
+        <EditText
+            android:id="@+id/emph3"
+            android:layout_width="408dp"
+            android:layout_height="39dp"
+            android:ems="10"
+            android:hint="phone 3"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/emph2" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
