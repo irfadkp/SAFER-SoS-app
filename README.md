@@ -1,3 +1,7 @@
+
+A mobile application supporting women safety with a fast functioning system.
+Alerts can be sent to authorities and required persons with a single tap.
+
 # EMERGENCY APP FOR WOMEN SAFETY BY TECH PANACEA
 
 Mobile Application Including SoS and many other safety features.
