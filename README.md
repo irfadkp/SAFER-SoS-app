@@ -1,6 +1,4 @@
-<a href="alirfad7@gmail.com">
-    <img src="https://ibb.co/4mzQbQ7" alt="Aimeos logo" title="Aimeos" align="right" height="60" />
-</a>
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/NNddWmz/Frame-1.png" alt="Frame-1" border="0"></a>
 A mobile application supporting women safety with a fast functioning system.
 Alerts can be sent to authorities and required persons with a single tap.
 
